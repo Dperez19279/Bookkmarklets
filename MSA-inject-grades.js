@@ -7,3 +7,5 @@ $( document ).ajaxComplete(function( event, xhr, settings ) {
     setTimeout(inject, 500);
   }
 });
+
+inject();
